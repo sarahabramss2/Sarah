@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Mono&display=swap');
+
+#fullWidth {width: 100%; 
+            margin:0;
+        display: block;}
+
+#customWidth {width: 800px; 
+              margin:1;} 
+
+nav {background-color: lightblue;}
+
+nav, ul {margin-top: 0;}
+
+div.localizingMoonranger {clear:both;}
+
+div.einsteinBot {clear: both;}
+
+div.jayApt {clear: both;}
+
+div.friendCoco {clear: both;}
+
+div.universalIncome {clear:both;}
+
+div.epitomeFemininity {clear:both;}
+
+div.sincerelySarah {clear:both;}
+
+div.dietrichDonor {clear:both;}
+
+div.englishSite {clear:both;}
+
+div.tomD {clear:both;}
+
+footer {clear:both;}
+
+div.localizingMoonranger img {
+    clear: both;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    width: 200px;}
+
+div einsteinBot img {
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    width: 200px;}
+
+div.jayApt img {
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    width: 200px;}
+
+div.friendCoco img {
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    width: 200px;}
+
+div.universalIncome img {
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    width: 200px;}
+
+div.epitomeFemininity img {
+    clear: both;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    width: 200px;}
+
+div.sincerelySarah img {
+     clear: both;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    width: 200px;}
+
+div.dietrichDonor img {
+     clear: both;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    width: 200px;}
+
+div.englishSite img {
+     clear: both;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    width: 200px;}
+
+div.tomD img {
+     clear: both;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    width: 200px;}
+
+h2{color: mediumpurple;}
+h3{color: blue;;
+   margin-bottom:0;}
+p{ margin-top:0;}
+
+
+nav ul li { display: inline-block;         
+    list-style-type: none;         
+    width: 120px;                  
+    background-color: lightblue;}
+nav ul li a { 
+  display: block;                  
+  color: #000;                     
+  padding: 7px 16px 7px 16px;       
+  text-decoration: none;          
+  text-align: center;}
+
+footer {
+    background-color:lightgray;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;}
+
+#copyright {float: left;}
+
+#email {float: right;}
+
+   #content-area {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 50px;  // 
+    }
+
+        header h1 {                      
+        position: absolute;            
+        top: 60px;
+        left: 225px;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;}
+    }
+
+table {
+    border: 0px;
+    table-layout: fixed;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-style: solid;
+    padding: 0;
+    text-align: right;
+}
+
+thead {
+    background-color: deeppink;
+    color: darkslategray;
+    text-align: left
+}
+
+
+
+th {
+    font-family: 'Times New Roman';
+    font-weight: 'Regular';
+    font-size: 13pt;
+    text-align: right;
+    padding: 4px;
+    border: none;
+    border-top: 1px solid lightgray;
+}
+
+td {
+    font-family: 'Times New Roman';
+    font-weight: 'Regular';
+    font-size: 13pt;
+    overflow: hidden;
+    padding: 8px;
+    text-align: right;
+    padding-left: 300px;
+    width: 80px;
+    border: none;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray; 
+}
+
+
+        
+td: first-child {
+    background-color: lightgrey;
+    text-align: left;
+}
+
+ @media (min-width: 768px) {   
+        nav ul {
+            background-color: deeppink;
+            margin: 0;
+            padding:0;
+            padding-left: 12px;
+            padding-bottom: 0px;
+            overflow: auto;
+                }
+   .left-column, .right-column {
+        flex: 0 0 10px;
+    }
+
+    .center-column {
+        flex: auto;
+    }
+}
+
+    @media (max-width: 767px) {  
+        nav ul {
+        float: right;
+        list-style-type: none;
+        width: 120px;
+        background-color: blue;
+        }
+        
+ .left-column, .right-column {
+        flex: 0 0 100px;
+    }
+
+    .right-column {
+    flex: auto; 
+}
+
+    .center-column {
+        flex: 0 1 600px;
+    }
+}
+
